@@ -1,3 +1,4 @@
+
 from collections import deque
 
 class Graph_bi:
@@ -127,4 +128,5 @@ class Graph_bi:
             current_vertex = path_forward[current_vertex]
 
         path.reverse()
+
         return path

@@ -46,3 +46,4 @@ class SimulatedAnnealing:
         # Generate a random neighbor of the given state
         neighbors = list(self.graph.neighbors(state))
         return random.choice(neighbors)
+

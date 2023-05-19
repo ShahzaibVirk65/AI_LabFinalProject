@@ -1,3 +1,4 @@
+
 import heapq
 from uni import Graph_ucs
 
@@ -79,6 +80,7 @@ class Graph_astar:
         graph = Graph_ucs(self.graph, self.graphType)
         _, dist = graph.uniform_cost_search(current_node, goal_node)
         return actual_cost + dist + self.HeuristicDict[current_node]
+
 
 
 
